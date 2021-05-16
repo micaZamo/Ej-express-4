@@ -1,0 +1,37 @@
+body{
+    background-color: cornsilk
+}
+
+h1 {
+    color: cadetblue;
+    text-align: center;
+    font-size: 53px;
+}
+
+form {
+  background-color: darkseagreen;
+  margin: auto;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid navy;
+}
+
+form > input {
+  margin: 10px;
+  border-radius: 3px;
+  border: 1px solid #008007;
+  font-family: inherit;
+}
+
+#btn-enviar {
+  border: none;
+  background-color: rgb(128, 0, 96);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#btn-enviar:hover {
+  background-color: rgb(251, 255, 0);
+}
